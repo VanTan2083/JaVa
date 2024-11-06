@@ -1,0 +1,26 @@
+public class MangNgauNhien {
+public static void main(String[] args) {
+
+int n; //Kích thước mảng 1 chiều
+int [] a; //Mảng số nguyên 1 chiều có tên a
+Scanner sc = new Scanner(System.in);
+Random rd = new Random();
+do
+{
+System.out.print("Nhập số lượng phần tử mảng: n = "); n = sc.nextInt();
+
+}
+while(n<=0 || n>=100);
+
+a = new int [n];
+
+for(int i = 0;
+i <n;i++) {a[i] = rd.nextInt(99)-1;
+System.out.print(a[i]+"\t");
+
+}
+
+}
+
+}
+ 
